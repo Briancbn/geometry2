@@ -7,6 +7,6 @@ env:
     - ROS_DISTRO="foxy" ROS_REPO=main CODE_COVERAGE="codecov.io"
 
 install:
-  -  git clone --quiet --depth 1 https://github.com/Briancbn/industrial_ci.git .industrial_ci -b  pr-coverage 
+  -  git clone --quiet --depth 1 https://github.com/Briancbn/industrial_ci.git .industrial_ci -b  pr-coverage-rebased
 script:
   - .industrial_ci/travis.sh
